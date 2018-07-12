@@ -1,0 +1,34 @@
+{
+  "id": "blog",
+  "name": "Blog",
+  "description": null,
+  "displayField": "title",
+  "fields": [
+    {
+      "name": "Posts",
+      "id": "posts",
+      "type": "Array",
+      "link_type": "Entry",
+      "link": "Link"
+    },
+    {
+      "name": "Title",
+      "id": "title",
+      "type": "Text"
+    },
+    {
+      "name": "Categories",
+      "id": "categories",
+      "type": "Array",
+      "link_type": "Entry",
+      "link": "Link"
+    },
+    {
+      "name": "Tags",
+      "id": "tags",
+      "type": "Array",
+      "link_type": "Entry",
+      "link": "Link"
+    }
+  ]
+}

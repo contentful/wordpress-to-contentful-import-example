@@ -1,0 +1,18 @@
+{
+  "id": "tag",
+  "name": "Tag",
+  "description": null,
+  "displayField": "nicename",
+  "fields": [
+    {
+      "name": "Nicename",
+      "id": "nicename",
+      "type": "Text"
+    },
+    {
+      "name": "Name",
+      "id": "name",
+      "type": "Text"
+    }
+  ]
+}

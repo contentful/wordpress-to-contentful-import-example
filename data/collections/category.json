@@ -1,0 +1,18 @@
+{
+  "id": "category",
+  "name": "Category",
+  "description": null,
+  "displayField": "name",
+  "fields": [
+    {
+      "name": "Nicename",
+      "id": "nicename",
+      "type": "Text"
+    },
+    {
+      "name": "Name",
+      "id": "name",
+      "type": "Text"
+    }
+  ]
+}

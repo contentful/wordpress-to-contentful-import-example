@@ -1,0 +1,48 @@
+{
+  "id": "post",
+  "name": "Post",
+  "description": null,
+  "displayField": "title",
+  "fields": [
+    {
+      "name": "Title",
+      "id": "title",
+      "type": "Text"
+    },
+    {
+      "name": "Content",
+      "id": "content",
+      "type": "Text"
+    },
+    {
+      "name": "Tags",
+      "id": "tags",
+      "type": "Array",
+      "link_type": "Entry",
+      "link": "Link"
+    },
+    {
+      "name": "Categories",
+      "id": "categories",
+      "type": "Array",
+      "link_type": "Entry",
+      "link": "Link"
+    },
+    {
+      "name": "Wordpress_url",
+      "id": "wordpress_url",
+      "type": "Text"
+    },
+    {
+      "name": "Attachment",
+      "id": "attachment",
+      "type": "Asset",
+      "link": "Link"
+    },
+    {
+      "name": "Created_at",
+      "id": "created_at",
+      "type": "Date"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "attachment_post_4",
+  "description": [
+    "<wp:postmeta>\n    <wp:meta_key>_wp_attachment_backup_sizes</wp:meta_key>\n    <wp:meta_value><![CDATA[a:1:{s:9:\"full-orig\";a:3:{s:5:\"width\";i:217;s:6:\"height\";i:217;s:4:\"file\";s:6:\"c3.png\";}}]]></wp:meta_value>\n  </wp:postmeta>",
+    "<wp:postmeta>\n    <wp:meta_key>_edit_last</wp:meta_key>\n    <wp:meta_value><![CDATA[53285623]]></wp:meta_value>\n  </wp:postmeta>"
+  ],
+  "url": "https://contentfulimporttool.files.wordpress.com/2015/03/c3-e1425301783166.png"
+}

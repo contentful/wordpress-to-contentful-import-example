@@ -1,0 +1,11 @@
+{
+  "id": "post_4",
+  "title": "c3",
+  "wordpress_url": "https://contentfulimporttool.wordpress.com/?attachment_id=4",
+  "content": "",
+  "created_at": "2015-03-02",
+  "attachment": {
+    "id": "attachment_post_4",
+    "type": "File"
+  }
+}

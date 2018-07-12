@@ -1,0 +1,35 @@
+{
+  "id": "post_6",
+  "title": "Contentful's Wordpress Export Tool",
+  "wordpress_url": "https://contentfulimporttool.wordpress.com/2015/03/02/contentfuls-wordpress-export-tool/",
+  "content": "This adapter will allow you to extract content from a WordPress Blog and prepare it to be imported to&nbsp; [Contentful](https://wwww.contentful.com/). The following content will be extracted:\n\n- Blog with posts\n- Categories, tags and terms from custom taxonomies\n- Attachments\nStep-by-step instructions\n1. [Export](http://en.support.wordpress.com/export/) the content of the blog from WordPress and save it as XML file.\n2. Create YAML file with settings (eg. settings.yml) and fill in the required parameters. The generated `content types`, `entries` and `assets` will be saved to the `data_dir`.\n3. Extract the content from the XML file and generate the content model and JSON files for the import:\n\n    wordpress-exporter --config-file settings.yml --extract-to-json\n\nIf you want to create a different content model for your blog you can use `--omit-content-model`\n\n    wordpress-exporter --config-file settings.yml --extract-to-json --omit-content-model\n\nIt will only extract the content and store it as JSON, you need to take care about the content mapping yourself. See the [Contentful-importer](https://github.com/contentful/generic-importer.rb) for details on how this needs to be done.\n4. (Optional). HTML markup can be converted to markdown:\n\n    wordpress-exporter --config-file settings.yml --convert-markup\n\nThis will only touch the content body of a blog post, other attributes will not be changed.\n5. Use the [contentful-importer](https://github.com/contentful/generic-importer.rb) to import the content to [contentful.com](https://www.contentful.com/)\n\n## \n",
+  "created_at": "2015-03-02",
+  "tags": [
+    {
+      "id": "tag_332962984",
+      "type": "Entry"
+    },
+    {
+      "id": "tag_20054",
+      "type": "Entry"
+    },
+    {
+      "id": "tag_43231",
+      "type": "Entry"
+    },
+    {
+      "id": "tag_33",
+      "type": "Entry"
+    }
+  ],
+  "categories": [
+    {
+      "id": "category_5155",
+      "type": "Entry"
+    },
+    {
+      "id": "category_54",
+      "type": "Entry"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+#PATH to all data
+data_dir: data
+
+########## IMPORT DATA TO CONTENTFUL ##########
+
+## EXPORTED XML FILE FROM WORDPRESS
+wordpress_xml_path: data/wordpress.xml
+
+## CONVERT CONTENTFUL MODEL TO CONTENTFUL IMPORT STRUCTURE
+content_model_json: data/contentful_model.json
+converted_model_dir: data/contentful_structure.json
+
+contentful_structure_dir: data/default_contentful_structure.json
+
+access_token: 99e2a9f28d9db366a396a06ce57beed515739e9248622d1b4d89bb4d78d96495
+organization_id: 63eIoH1uXiJPh3rHPV12QY
+
+space_id: v3d5u8tv7n3c
